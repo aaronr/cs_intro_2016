@@ -1,7 +1,7 @@
 <!------------------------------------------------------------>
 <!-- Topic: xxx -->
 
-<h1>Computer Science</h1>
+<h2>Computer Science</h2>
 <img src="images/dash_dot.png" style="max-height: 400px;">
 <p>
     <small>Aaron Racicot - <a href="mailto:aaronr@z-pulley.com">aaronr@z-pulley.com</a>
@@ -39,9 +39,11 @@
 --SLIDE--
 <!-- Topic: Computers Science -->
 
-<h1>Computer <b>Science</b></h1>
-<h3>Like looking under the hood of a car...</h3>
+<h2>Computer <b>Science</b></h2>
+<h4>Like looking under the hood of a car...</h4>
+<br>
 <hr>
+<br>
 <h3>Looking behind a website...</h3>
 <h3>Looking inside of a device...</h3>
 
@@ -55,6 +57,7 @@
 <h2><b>Coding</b> can be a job</h2>
 <img src="images/job.jpg" style="max-height: 450px;">
 
+--SUBSLIDE--
 
 <h2><b>Many</b> types</h2>
 <img src="images/many_devices.jpg" style="max-height: 450px;">
@@ -70,12 +73,16 @@
 --SLIDE--
 <!-- Topic: Computers Science -->
 
-<h1>Computer <b>Science</b></h1>
-<h2>"Computer science is the scientific and practical approach to computation and its applications."</h2>
+<h3>"Computer science is the</h3>
+<h3>scientific and practical</h3>
+<h3>approach to computation</h3> 
+<h3>and its applications."</h3>
 
 --SUBSLIDE--
 
-<h2>"Its fields can be divided into a variety of theoretical and practical disciplines."</h2>
+<h3>"Its fields can be divided</h3>
+<h3>into a variety of theoretical</h3>
+<h3>and practical disciplines."</h3>
 
 
 <!------------------------------------------------------------>
@@ -83,35 +90,38 @@
 <!-- Topic: Computers Science -->
 
 
-<h1>Theoretical </h1>
-<h2>How do you sort a list of numbers... fast...<h2>
+<h2>Theoretical </h2>
+<h3>How do you sort numbers?<h3>
 <img src="images/sort.gif" style="max-height: 450px;">
 
 --SUBSLIDE--
 
-<h1>Computer Science - Practical </h1>
-<h2>How do you make a website (writing html, javascript and web services)</h2>
-<h2>How do you write a program to drive a car (google self driving cars)</h2>
-<h2>How do you cast a shadow when creating animation (ray tracing)</h2>
-
+<h2>Practical </h2>
+<ul>
+  <li class="fragment"><strong>How do you make a website (writing html, javascript and web services)</strong></li>
+  <li class="fragment"><strong>How do you write a program to drive a car (google self driving cars)</strong></li>
+  <li class="fragment"><strong>How do you cast a shadow when creating animation (ray tracing)</strong></li>
+</ul>
 
 <!------------------------------------------------------------>
 --SLIDE--
 <!-- Topic: Computers Science -->
 
-<h1>But why?</h1>
-<h2>The end goal is to map some other domain problem to computer science to solve problems</h2>
+<h2>But why?</h2>
+<h3>End goal is to map some domain</h3>
+<h3>problem to computer science</h3>
+<h3>to help solve that problem</h3>
 
 --SUBSLIDE--
 
-<h1>It will change your life!</h1>
+<h2>It will change your life!</h2>
 
 
 <!------------------------------------------------------------>
 --SLIDE--
 <!-- Topic: Computers Science -->
 
-<h1>Starting at the bottom</h1>
+<h2>Starting at the bottom</h2>
 <ul>
   <li class="fragment"><strong>Computers crunch numbers... its all math</strong></li>
   <li class="fragment"><strong>The brains are the CPU</strong></li>
@@ -123,7 +133,7 @@
 
 --SUBSLIDE--
 
-<h1>Finishing at the top</h1>
+<h2>Finishing at the top</h2>
 <ul>
   <li class="fragment"><strong>Systems interact with humans (or other systems)</strong></li>
 </ul>
@@ -145,7 +155,7 @@
 
 --SUBSLIDE--
 
-<h1>... called <b>Code</b></h1>
+<h2>... called <b>Code</b></h2>
 <img src="images/code_mag.jpg" style="max-height: 450px;">
 
 --SUBSLIDE--
@@ -161,12 +171,10 @@
 <h2><b>Languages</b> (code)</h2>
 <ul>
   <li class="fragment"><strong>Low level languages (Assembly Language)</strong></li>
-  <li class="fragment"><strong>High-level languages (C, C++, Java, Python, Javascript, etc)</strong></li>
-  <li class="fragment"><strong>Code is really just the syntax (i.e. like english, french, spanish)</strong></li>
+  <li class="fragment"><strong>High-level languages (C, C++, Java, Python, Javascript)</strong></li>
+  <li class="fragment"><strong>Code is just the syntax (English, French, Spanish)</strong></li>
   <li class="fragment"><strong>Logic is the common element (i.e. you can say "Car" in many languages...) </strong></li>
 </ul>
-
---SUBSLIDE--
 
 
 <!------------------------------------------------------------>
@@ -183,20 +191,12 @@
 
 --SUBSLIDE--
 
-<img src="images/input.png" style="max-height: 550px;">
-
---SUBSLIDE--
-
 <img src="images/inout_example.png" style="max-height: 550px;">
 
 --SUBSLIDE--
 
-<h2><b>If</b></h2>
+<h2><b>If/Then/Else</b></h2>
 <img src="images/if-then.png" style="max-height: 450px;">
-
---SUBSLIDE--
-
-<img src="images/if.png" style="max-height: 550px;">
 
 --SUBSLIDE--
 
@@ -206,10 +206,6 @@
 
 <h2><b>Loops</b></h2>
 <img src="images/loop.jpg" style="max-height: 450px;">
-
---SUBSLIDE--
-
-<img src="images/loop.png" style="max-height: 550px;">
 
 --SUBSLIDE--
 
