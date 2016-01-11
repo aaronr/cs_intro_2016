@@ -1,0 +1,67 @@
+- Intro
+  - Who I am (SW alum)
+  - My path to getting to where I am (UW, OHSU, Jobs)
+  - My job (NOAA)
+  - Why am I here (excited about young people learning to code)
+
+- Computer Science
+  - Equate to looking under the hood of the car
+  - Two interfaces we will look at... Hardware/Software -> Software/Human
+  - Things are so much more clear if you understand the top to bottom picture (How devices work, How the web works)
+  - Levels of abstraction (hardware in software, algorithms, being smart about using computers abilities)
+  - "Computer science is the scientific and practical approach to computation and its applications."
+  - "Its fields can be divided into a variety of theoretical and practical disciplines."
+
+- Computer Science - Theoretical 
+  - How do you sort a list of numbers... fast (sort algorithms)
+  - How do you translate from one language to another (i.e. C++ to Assembly)
+
+- Computer Science - Practical 
+  - How do you make a website (writing html, javascript and web services)
+  - How do you write a program to drive a car (google self driving cars)
+  - How do you cast a shadow when creating animation (ray tracing)
+
+- But why?
+  - The end goal is to map some other domain problem to computer science to solve problems
+  - It will change your life!
+
+- Starting at the bottom
+  - Computers crunch numbers... its all math
+  - The brains are the CPU, the short term memory is the RAM, the long term memeory is the Harddrive
+  - The language the brain (CPU) speaks is "code"
+  - Analog/Digital
+
+- Finishing at the top
+  - Systems interact with humans (or other systems)
+
+- Code (language)
+  - Low level languages (Assembly Language)
+  - High-level languages (C, C++, Java, Python, Javascript, etc)
+  - Code is really just the syntax (i.e. like english, french, spanish)
+  - Logic is the underlying common element (i.e. you can say "Car" in many languages... 
+    but the underlying idea is the same)
+
+- Coding constructs (the logic)
+  - Input/Output
+  - If/Then/Else
+  - Loops
+  - Functions
+
+Mathmatical Logic
+  - Binary operators (true/false)
+  - Greater than, less than, equal to
+  - and/or
+
+- Some terminology
+  - Bit, Byte, Megabit, Megabyte, Gigabyte etc
+  - Gigahertz (GHz)
+  - Router, IP address, HTML, etc
+
+- Two examples
+  - RaspberryPi (embedded computer) (Python)
+  - Web page (HTML, Javascript)
+  - These are very different applications, but the coding is similar, and the theory is identical
+
+
+
+
