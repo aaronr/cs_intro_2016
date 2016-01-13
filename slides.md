@@ -127,7 +127,7 @@
   <li><strong>Computers crunch numbers... its all math</strong></li>
   <li class="fragment"><strong>The brains are the CPU</strong></li>
   <li class="fragment"><strong>Short term memory is the RAM</strong></li>
-  <li class="fragment"><strong>Long term memeory is the Harddrive</strong></li>
+  <li class="fragment"><strong>Long term memory is the Hard drive</strong></li>
   <li class="fragment"><strong>The language the brain (CPU) speaks is "code"</strong></li>
   <li class="fragment"><strong>Analog <-> Digital</strong></li>
 </ul>
@@ -138,7 +138,7 @@
 <ul>
   <li><strong>Systems</strong> interact with humans (or other systems)</li>
   <li class="fragment"><strong>Interfaces</strong> are constantly changing</li>
-  <li class="fragment"><strong>Asyncronous</strong> vs <strong>Syncronous</strong></li>
+  <li class="fragment"><strong>Asynchronous</strong> vs <strong>Synchronous</strong></li>
 </ul>
 
 
@@ -353,7 +353,7 @@ plt.show()
 
 --SUBSLIDE--
 
-<h2><b>Mathmatical Logic</b></h2>
+<h2><b>Mathematical Logic</b></h2>
 <img src="images/math.jpg" style="max-height: 450px;">
 
 --SUBSLIDE--
