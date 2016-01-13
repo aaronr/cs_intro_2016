@@ -98,9 +98,9 @@
 
 <h2>Practical </h2>
 <ul>
-  <li class="fragment"><strong>How do you make a website (writing html, javascript and web services)</strong></li>
-  <li class="fragment"><strong>How do you write a program to drive a car (google self driving cars)</strong></li>
-  <li class="fragment"><strong>How do you cast a shadow when creating animation (ray tracing)</strong></li>
+  <li><strong>How do you make a website (writing html, javascript and web services)</strong></li>
+  <li class="fragment"><strong>How do you write a program to drive a car (Google self driving cars)</strong></li>
+  <li class="fragment"><strong>How do you cast a shadow when creating animation (Ray Tracing)</strong></li>
 </ul>
 
 <!------------------------------------------------------------>
@@ -108,9 +108,10 @@
 <!-- Topic: Computers Science -->
 
 <h2>But why?</h2>
-<h3>End goal is to map some domain</h3>
-<h3>problem to computer science</h3>
-<h3>to help solve that problem</h3>
+<hr>
+<h3>End goal is to <b>map</b> some domain</h3>
+<h3><b>problem</b> to computer science</h3>
+<h3>to help <b>solve</b> that problem</h3>
 
 --SUBSLIDE--
 
@@ -123,19 +124,21 @@
 
 <h2>Starting at the bottom</h2>
 <ul>
-  <li class="fragment"><strong>Computers crunch numbers... its all math</strong></li>
+  <li><strong>Computers crunch numbers... its all math</strong></li>
   <li class="fragment"><strong>The brains are the CPU</strong></li>
   <li class="fragment"><strong>Short term memory is the RAM</strong></li>
   <li class="fragment"><strong>Long term memeory is the Harddrive</strong></li>
   <li class="fragment"><strong>The language the brain (CPU) speaks is "code"</strong></li>
-  <li class="fragment"><strong>Analog/Digital</strong></li>
+  <li class="fragment"><strong>Analog <-> Digital</strong></li>
 </ul>
 
 --SUBSLIDE--
 
 <h2>Finishing at the top</h2>
 <ul>
-  <li class="fragment"><strong>Systems interact with humans (or other systems)</strong></li>
+  <li><strong>Systems</strong> interact with humans (or other systems)</li>
+  <li class="fragment"><strong>Interfaces</strong> are constantly changing</li>
+  <li class="fragment"><strong>Asyncronous</strong> vs <strong>Syncronous</strong></li>
 </ul>
 
 
@@ -170,10 +173,10 @@
 
 <h2><b>Languages</b> (code)</h2>
 <ul>
-  <li class="fragment"><strong>Low level languages (Assembly Language)</strong></li>
+  <li><strong>Low level languages (Assembly Language)</strong></li>
   <li class="fragment"><strong>High-level languages (C, C++, Java, Python, Javascript)</strong></li>
   <li class="fragment"><strong>Code is just the syntax (English, French, Spanish)</strong></li>
-  <li class="fragment"><strong>Logic is the common element (i.e. you can say "Car" in many languages...) </strong></li>
+  <li class="fragment"><strong>Logic is the common element (i.e. you can say "Car" in many languages) </strong></li>
 </ul>
 
 
@@ -186,12 +189,47 @@
 
 --SUBSLIDE--
 
+<h2>Variables</h2>
+<img src="images/variable.jpg" style="max-height: 450px;">
+
+--SUBSLIDE--
+
+<pre><code>
+>>> x = 1
+>>> x
+1
+>>> y = 2
+>>> y
+2
+>>> x + y
+3
+>>> x = 10
+>>> x + y
+12
+</code></pre>
+
+--SUBSLIDE--
+
 <h2><b>Input</b> and <b>Output</b></h2>
 <img src="images/inout.gif" style="max-height: 450px;">
 
 --SUBSLIDE--
 
 <img src="images/inout_example.png" style="max-height: 550px;">
+
+--SUBSLIDE--
+
+<pre><code>
+z-air: aaronr$ python
+Python 2.7.10 (default, Oct 23 2015, 18:05:06)
+[GCC 4.2.1 Compatible Apple LLVM 7.0.0 (clang-700.0.59.5)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+
+>>> name = raw_input("Enter your name: ")
+Enter your name: Aaron
+>>> name
+'Aaron'
+</code></pre>
 
 --SUBSLIDE--
 
@@ -204,12 +242,107 @@
 
 --SUBSLIDE--
 
+<pre><code>
+>>> name == 'Aaron'
+True
+
+>>> if name == 'Aaron':
+...     print "Hi there Aaron"
+
+Hi there Aaron
+</code></pre>
+
+--SUBSLIDE--
+
+<h2>Boolean Logic</h2>
+<pre><code>
+>>> True == 1
+True
+>>> False == 0
+True
+>>> True and False
+False
+>>> True and True
+True
+>>> True or False
+True
+>>> False or False
+False
+>>> not True
+False
+</code></pre>
+
+--SUBSLIDE--
+
 <h2><b>Loops</b></h2>
 <img src="images/loop.jpg" style="max-height: 450px;">
 
 --SUBSLIDE--
 
 <img src="images/car.jpg" style="max-height: 550px;">
+
+--SUBSLIDE--
+
+<pre><code>
+>>> for x in xrange(10):
+...        print "x = %d" % x
+x = 0
+x = 1
+x = 2
+x = 3
+x = 4
+x = 5
+x = 6
+x = 7
+x = 8
+x = 9
+</code></pre>
+
+--SUBSLIDE--
+
+<pre><code>
+>>> x = 10
+>>> while x > 0:
+...     print "x = %d" % x
+...     x = x - 1
+...
+x = 10
+x = 9
+x = 8
+x = 7
+x = 6
+x = 5
+x = 4
+x = 3
+x = 2
+x = 1
+</code></pre>
+
+--SUBSLIDE--
+
+<img src="images/plot.png" style="max-height: 450px;">
+
+--SUBSLIDE--
+
+<pre><code>
+import numpy as np
+import matplotlib.pyplot as plt
+
+mu, sigma = 100, 15
+x = mu + sigma * np.random.randn(10000)
+
+# the histogram of the data
+n, bins, patches = plt.hist(x, 50, normed=1, facecolor='g', alpha=0.75)
+
+plt.xlabel('Smarts')
+plt.ylabel('Probability')
+plt.title('Histogram of IQ')
+plt.text(60, .025, r'$\mu=100,\ \sigma=15$')
+plt.axis([40, 160, 0, 0.03])
+plt.grid(True)
+plt.show()
+</code></pre>
+
 
 <!------------------------------------------------------------>
 --SLIDE--
@@ -235,4 +368,9 @@
 <!------------------------------------------------------------>
 --SLIDE--
 <!-- Topic: Example -->
+
+<img src="images/pi.jpg" style="max-height: 550px;">
+
+
+
 
