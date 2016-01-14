@@ -372,5 +372,123 @@ plt.show()
 <img src="images/pi.jpg" style="max-height: 550px;">
 
 
+<!------------------------------------------------------------>
+--SLIDE--
+<!-- Topic: Example -->
 
+<img src="images/web.gif" style="max-height: 550px;">
+
+<!------------------------------------------------------------>
+--SLIDE--
+<!-- Topic: Example -->
+
+<h2><b>HTML</b></h2>
+<h3>Hyper Text Markup Language</h3>
+
+<pre><code>
+    <div class="col-md-4 scoreboard">
+      <h1 id="score">Score = 0</h1>
+    </div>
+</code></pre>
+
+--SUBSLIDE--
+
+<h2><b>Head</b></h2>
+<pre><code>
+&lt;head&gt;
+  &lt;title&gt;Aaron's Pong Game&lt;/title&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css&quot;&gt;
+  &lt;style&gt;
+    .scoreboard {
+      background-color: #2ba6cb;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+</code></pre>
+
+--SUBSLIDE--
+
+<h2><b>Body</b></h2>
+<pre><code>
+&lt;body&gt;
+  &lt;div class=&quot;container&quot;&gt;
+    &lt;div class=&quot;col-md-4 scoreboard&quot;&gt;
+      &lt;h1 id=&quot;score&quot;&gt;Score = 0&lt;/h1&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col-md-8 gameboard&quot;&gt;
+      &lt;center&gt;
+        &lt;h1 class=&quot;cover-heading&quot;&gt;My Pong Game&lt;/h1&gt;
+        &lt;canvas id=&quot;pong&quot; data-processing-sources=&quot;pong.pde&quot;/&gt;&lt;/canvas&gt;
+      &lt;/center&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.4.16/processing.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+</code></pre>
+
+<!------------------------------------------------------------>
+--SLIDE--
+<!-- Topic: Example -->
+
+<h2><b>CSS</b></h2>
+<h3>Cascading Style Sheets</h3>
+
+--SUBSLIDE--
+
+<h2><b>By Class</b></h2>
+<pre><code>
+  &lt;style&gt;
+    .scoreboard {
+      background-color: #2ba6cb;
+    }
+  &lt;/style&gt;
+</code></pre>
+
+--SUBSLIDE--
+
+<h2><b>By ID</b></h2>
+<pre><code>
+  &lt;style&gt;
+    #scoreboard {
+      background-color: #2ba6cb;
+    }
+  &lt;/style&gt;
+</code></pre>
+
+--SUBSLIDE--
+
+<h3>The difference between an ID and</h3>
+<h3>a class is that an ID can be used</h3>
+<h3>to identify one element, whereas</h3> 
+<h3>a class can be used to identify</h3>
+<h3>more than one.</h3>
+
+<!------------------------------------------------------------>
+--SLIDE--
+<!-- Topic: Example -->
+
+<h2><b>JavaScript</b></h2>
+<h3>high-level, dynamic, untyped, and</h3>
+<h3>interpreted programming </h3>
+<h3>language</h3>
+
+--SUBSLIDE--
+
+<pre><code>
+$(document).ready(function() {
+
+    var map = L.map('map', {maxZoom: 22}).setView([48.03, -122.4085], 14);
+
+    var featureLayer = L.mapbox.featureLayer()
+        .loadURL('/gisdata/geojson/citylimitsline_4326.geojson')
+        .addTo(map);
+});
+</code></pre>
+
+
+<!------------------------------------------------------------>
+--SLIDE--
+<!-- Topic: Example -->
+
+<img src="images/pong.png" style="max-height: 550px;">
 
